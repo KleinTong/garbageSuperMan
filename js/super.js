@@ -18,8 +18,6 @@ $(function(){
 		AniFour.addClass('animation');
 		AniFive.addClass('flashShake');
 
-		$('#tag').css('opacity',1.0);
-
 		$(".path").each(function(){
 				var opa = Math.random();
 				while(opa >= 0.5){
@@ -28,7 +26,9 @@ $(function(){
 				}
 				bezier_params.end.y = Math.floor(Math.random() * 800);
 				bezier_params.end.x = Math.floor(Math.random() * 1000);
-				$(this).animate({path : new $.path.bezier(bezier_params)},3000);
+				$(this).animate({path : new $.path.bezier(bezier_params)},3000,function(){
+					$('#tag').css('opacity',1.0);
+				});
 				});
 	}, false);
 

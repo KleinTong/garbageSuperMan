@@ -135,7 +135,15 @@ body {
   font-size: 4em;
   color: #fffa94;
   opacity: 0.0;
-  transition: all 0.8s;
+  transition: all 3s;
+}
+
+#from {
+  font-size: 30px;
+  font-family: 'Indie Flower', cursive;
+  position: absolute;
+  top: 160px;
+  right: 100px;
 }
 
 .path {
