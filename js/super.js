@@ -21,10 +21,14 @@ $(function(){
 		$('#tag').css('opacity',1.0);
 
 		$(".path").each(function(){
+				var opa = Math.random();
+				while(opa >= 0.5){
+					$(this).css('opacity',opa);
+					opa = Math.random();
+				}
 				bezier_params.end.y = Math.floor(Math.random() * 800);
 				bezier_params.end.x = Math.floor(Math.random() * 1000);
-				$(this).animate({path : new $.path.bezier(bezier_params)},2000);
-				console.log("heih");
+				$(this).animate({path : new $.path.bezier(bezier_params)},3000);
 				});
 	}, false);
 
@@ -40,6 +44,8 @@ $(function(){
 	      angle: 10, 
 	      length: 0.33
 	    }
-	  }
+	};
+
+	// var colorArray = []
 
 })
