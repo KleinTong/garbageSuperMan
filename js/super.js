@@ -17,15 +17,22 @@ $(function(){
 		AniThree.addClass('animation');
 		AniFour.addClass('animation');
 		AniFive.addClass('flashShake');
-		$("#path").animate({path : new $.path.bezier(bezier_params)},3000);
-		console.log('one');
+
+		$('#tag').css('opacity',1.0);
+
+		$(".path").each(function(){
+				bezier_params.end.y = Math.floor(Math.random() * 800);
+				bezier_params.end.x = Math.floor(Math.random() * 1000);
+				$(this).animate({path : new $.path.bezier(bezier_params)},2000);
+				console.log("heih");
+				});
 	}, false);
 
 	var bezier_params = {
 	    start: { 
-	      x: 230, 
-	      y: 450, 
-	      angle: 250
+	      x: 270, 
+	      y: 480, 
+	      angle: 270
 	    },  
 	    end: { 
 	      x:540,

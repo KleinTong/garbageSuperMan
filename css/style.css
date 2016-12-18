@@ -104,12 +104,12 @@ body {
 }
 
 .animation {
-  opacity: 0.8;
+  /*opacity: 0.8;*/
   animation: flash 0.4s 6;
 }
 
 .flashShake {
-  opacity: 0.8;
+  /*opacity: 0.8;*/
   animation: flashShake 0.4s 6;
 }
 
@@ -128,18 +128,25 @@ body {
 }
 
 #tag {
-  font-family: 'Molle', cursive;
+  font-family: 'Bungee Shade','Molle', cursive;
   position: absolute;
   top: 40%;
   right: 80px;
   font-size: 4em;
   color: #fffa94;
+  opacity: 0.0;
+  transition: all 0.8s;
 }
 
-#path {
+.path {
   height: 1em;
   width: 1em;
   background: pink;
   position: absolute;
+  left: 270px;
+  top: 480px;
+  z-index: -10;
+  opacity: 0.7;
+  border-radius: 50%;
 }
 /*------------------------*/
