@@ -1,17 +1,12 @@
 $(function(){
-	var AniOne = document.getElementById('old');
-
-	// AniOne.onanimationend = function(){
-	// 	var AniTwo = document.getElementById('new');
-	// 	AniTwo.style.display = 'block';
-	// }
+	var AniOne = document.getElementById('supermanOne');
 
 	AniOne.addEventListener("animationend", function(){
-		var AniTwo = document.getElementById('new');
+		// var AniTwo = document.getElementById('new');
 		var AniFour = $('#trash');
 		var AniFive = $('#trashCover');
-		AniOne.style.opacity = 0.0;
-		AniTwo.style.opacity= 1.0;
+		AniFour.css('opacity',1.0);
+		AniFive.css('opacity',1.0);
 		// var AniThree = document.getElementById('block');
 		var AniThree = $('#block');
 		AniThree.addClass('animation');
@@ -20,21 +15,32 @@ $(function(){
 
 		$(".path").each(function(){
 				var opa = Math.random();
-				while(opa >= 0.5){
+				// while(opa >= 0.5){
 					$(this).css('opacity',opa);
-					opa = Math.random();
-				}
-				bezier_params.end.y = Math.floor(Math.random() * 800);
-				bezier_params.end.x = Math.floor(Math.random() * 1000);
+					// opa = Math.random();
+				// }
+				bezier_params.end.y = Math.random() * 800;
+				bezier_params.end.x = Math.random() * 1000;
 				$(this).animate({path : new $.path.bezier(bezier_params)},3000,function(){
 					$('#tag').css('opacity',1.0);
 				});
-				});
+		});
 	}, false);
+
+	var last = document.getElementById('trash');
+
+	last.addEventListener("animationend", function(){
+			$('#word').css('opacity',0.8);
+			$('#word').addClass('jello');
+			$('#trash').css('opacity',0.5);
+			$('#trashCover').css('opacity',0.5);
+			$('#howTo').css('opacity',1.0);
+			$('#howTo').addClass('fadeIn');
+		}, false);
 
 	var bezier_params = {
 	    start: { 
-	      x: 270, 
+	      x: 670, 
 	      y: 430, 
 	      angle: 270
 	    },  
@@ -45,7 +51,5 @@ $(function(){
 	      length: 0.33
 	    }
 	};
-
-	// var colorArray = []
 
 })

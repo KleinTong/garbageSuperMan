@@ -1,0 +1,209 @@
+body {
+  background: none repeat scroll 0 0 #2eb5c7;
+}
+
+.superman {
+  /*-webkit-animation:superman 2.5s ease-in-out 0s 1 forwards;*/
+  animation:superman 2.5s ease-in-out 0s 1 forwards; 
+  background-color: #e8b290;
+  box-shadow: 1em 0 0 0 #e8b290, 2em 0 0 0 #e8b290, 0 1em 0 0 #f7c4a9, 1em 1em 0 0 #f7c4a9, 2em 1em 0 0 #f7c4a9, 0 -1em 0 0 #f7c4a9, 1em -1em 0 0 #f7c4a9, 2em -1em 0 0 #f7c4a9, -1em 0 0 0 #f7c4a9, 3em 0 0 0 #f7c4a9, -1em -1em 0 0 #f7c4a9, 3em -1em 0 0 #f7c4a9, -1em 1em 0 0 #f7c4a9, 3em 1em 0 0 #f7c4a9, -2em -1em 0 0 #f7c4a9, -2em 0 0 0 #f7c4a9, -2em 1em 0 0 #f7c4a9, -2em -2em 0 0 #000000, -1em -2em 0 0 #f7c4a9, 0 -2em 0 0 #f7c4a9, 1em -2em 0 0 #f7c4a9, 2em -2em 0 0 #f7c4a9, 3em -2em 0 0 #f7c4a9, 4em -2em 0 0 #000000, 4em -1em 0 0 #f7c4a9, 5em -1em 0 0 #f7c4a9, 5em 0 0 0 #f7c4a9, 5em -2em 0 0 #f7c4a9, 5em -3em 0 0 #f7c4a9, 4em -3em 0 0 #f7c4a9, 3em -3em 0 0 #f7c4a9, 2em -3em 0 0 #f7c4a9, 1em -3em 0 0 #0f1434, 0 -3em 0 0 #f7c4a9, -1em -3em 0 0 #f7c4a9, 2em -4em 0 0 #0e1339, 3em -4em 0 0 #f7c4a9, 4em -4em 0 0 #f7c4a9, -1em -4em 0 0 #f7c4a9, 0 -4em 0 0 #f7c4a9, 1em -4em 0 0 #f7c4a9, -2em -3em 0 0 #f7c4a9, -3em -3em 0 0 #f7c4a9, -3em -4em 0 0 #0e1339, -2em -4em 0 0 #0e1339, -2em -5em 0 0 #0e1339, -1em -5em 0 0 #0e1339, 0 -5em 0 0 #0e1339, 1em -5em 0 0 #0e1339, 2em -5em 0 0 #0e1339, 3em -5em 0 0 #0e1339, 4em -5em 0 0 #0e1339, 5em -5em 0 0 #0e1339, 5em -4em 0 0 #0e1339, 6em -4em 0 0 #0e1339, 7em -4em 0 0 #0e1339, 7em -3em 0 0 #0e1339, 7em -2em 0 0 #0e1339, 7em -1em 0 0 #d1906a, 7em 0 0 0 #d1906a, 7em 1em 0 0 #d1906a, 5em 2em 0 0 #d1906a, 6em 2em 0 0 #d1906a, 4em 3em 0 0 #d1906a, 3em 3em 0 0 #e8b290, 2em 3em 0 0 #f6c4a9, 1em 3em 0 0 #f6c4a9, 2em 4em 0 0 #f6c4a9, 1em 4em 0 0 #fd6ce1, 0 4em 0 0 #fd6ce1, 3em 4em 0 0 #fd6ce1, 4em 4em 0 0 #fd6ce1, 5em 4em 0 0 #fd6ce1, 6em 4em 0 0 #a31c22, 6em 5em 0 0 #084267, 6em 6em 0 0 #084267, 6em 7em 0 0 #efb286, 5em 7em 0 0 #00609d, 5em 6em 0 0 #00609d, 5em 5em 0 0 #00609d, 4em 5em 0 0 #00609d, 4em 6em 0 0 #00609d, 4em 7em 0 0 #00609d, 3em 7em 0 0 #00609d, 2em 7em 0 0 #00609d, 1em 7em 0 0 #00609d, 0 7em 0 0 #00609d, 0 6em 0 0 #00609d, 1em 6em 0 0 #00609d, 1em 5em 0 0 #00609d, 0 5em 0 0 #00609d, -1em 5em 0 0 #00609d, 0 8em 0 0 #fdce04, 1em 8em 0 0 #c3212e, 2em 8em 0 0 #fdce04, 3em 8em 0 0 #fdce04, 4em 8em 0 0 #c3212e, 5em 8em 0 0 #fdce04, 5em 9em 0 0 #004b60, 5em 10em 0 0 #a31c23, 4em 10em 0 0 #c22629, 4em 9em 0 0 #005d96, 3em 9em 0 0 #992122, 2em 9em 0 0 #992122, 1em 9em 0 0 #005e9e, 0 9em 0 0 #005e9e, 0 10em 0 0 #ca2126, 1em 10em 0 0 #ca2126, 4em 0 0 0 #f7c4a9, 4em 1em 0 0 #f7c4a9, -3em -2em 0 0 #f7c4a9, -3em -1em 0 0 #f7c4a9, -3em 0 0 0 #f7c4a9, -3em 1em 0 0 #f7c4a9, -2em 2em 0 0 #f7c4a9, -1em 2em 0 0 #f7c4a9, 0 2em 0 0 #f7c4a9, 1em 2em 0 0 #f7c4a9, 2em 2em 0 0 #f7c4a9, 3em 2em 0 0 #f7c4a9, 4em 2em 0 0 #e8b290, 5em 1em 0 0 #e8b290, 6em 1em 0 0 #e8b290, 6em 0 0 0 #e8b290, 6em -1em 0 0 #e8b290, 6em -2em 0 0 #e8b290, 6em -3em 0 0 #e8b290, 6em -5em 0 0 #0e1434, 5em -6em 0 0 #0e1434, 4em -6em 0 0 #0e1434, 3em -6em 0 0 #0e1434, 2em -6em 0 0 #0e1434, 1em -6em 0 0 #0e1434, 0 -6em 0 0 #0e1434, -1em -6em 0 0 #0e1434, 2em 5em 0 0 #c42521, 2em 6em 0 0 #ffcb00, 3em 5em 0 0 #ffcb00, 3em 6em 0 0 #c42521, 7em 6em 0 0 #7f1517, 7em 5em 0 0 #7f1517, 7em 7em 0 0 #7f1517, 6em 9em 0 0 #7f1517, 6em 8em 0 0 #7f1517, 7em 8em 0 0 #7f1517, 8em 6em 0 0 #a31c20, 8em 7em 0 0 #a31c20, 8em 8em 0 0 #cb2026, 9em 8em 0 0 #a41b23, 8em 9em 0 0 #a41b23, 7em 9em 0 0 #a41b23, -2em 5em 0 0 #0a4361, -3em 5em 0 0 #F7C4A9;
+  height: 1em;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  width: 1em;
+}
+
+.superman:after {
+  /*-webkit-animation: 2.5s ease-in-out 0s normal none infinite superman_shadow;*/
+  /*animation: 2.5s ease-in-out 0s 1 superman_shadow;*/
+  background: none repeat scroll 0 0 #000000;
+  border-radius: 50%;
+  bottom: -201px;
+  content: "";
+  height: 20px;
+  left: -24px;
+  opacity: 0.2;
+  position: absolute;
+  width: 165px;
+}
+
+.super {
+  background-color: #e8b290;
+  box-shadow: 10px 0    0 #f00,
+            20px 0    0 #000,
+            30px 0    0 #f00,
+            0    10px 0 #f00,
+            10px 10px 0 #000,
+            20px 10px 0 #f00,
+            30px 10px 0 #000,
+            0    20px 0 #000,
+            10px 20px 0 #f00,
+            20px 20px 0 #000,
+            30px 20px 0 #f00,
+            0    30px 0 #f00,
+            10px 30px 0 #000,
+            20px 30px 0 #f00,
+            30px 30px 0 #000;
+  height: 1em;
+  left: 20%;
+  position: absolute;
+  top: 59%;
+  width: 1em;
+}
+
+@keyframes superman_shadow {
+  50% { transform: translateY(20px) scale(1); opacity:.05; }
+}
+@keyframes superman {
+  100% { transform: translateY(-20px);
+        transform: translateX(-350px);
+  }
+}
+/*--- Chrome animation ---*/
+@-webkit-keyframes  superman {
+  100% { transform: translateY(-20px); 
+        transform: translateX(-350px);
+  }
+}
+@-webkit-keyframes superman_shadow {
+  50% { transform: translateY(20px) scale(1); opacity:.05; }
+}
+
+#old {
+  transition: all 0.2s ease-in-out;
+}
+
+.new {
+  background-color: #e8b290;
+  box-shadow: 1em 0 0 0 #e8b290, 2em 0 0 0 #e8b290, 0 1em 0 0 #f7c4a9, 1em 1em 0 0 #f7c4a9, 2em 1em 0 0 #f7c4a9, 0 -1em 0 0 #f7c4a9, 1em -1em 0 0 #f7c4a9, 2em -1em 0 0 #f7c4a9, -1em 0 0 0 #f7c4a9, 3em 0 0 0 #f7c4a9, -1em -1em 0 0 #f7c4a9, 3em -1em 0 0 #f7c4a9, -1em 1em 0 0 #f7c4a9, 3em 1em 0 0 #f7c4a9, -2em -1em 0 0 #f7c4a9, -2em 0 0 0 #f7c4a9, -2em 1em 0 0 #f7c4a9, -2em -2em 0 0 #000000, -1em -2em 0 0 #f7c4a9, 0 -2em 0 0 #f7c4a9, 1em -2em 0 0 #f7c4a9, 2em -2em 0 0 #f7c4a9, 3em -2em 0 0 #f7c4a9, 4em -2em 0 0 #000000, 4em -1em 0 0 #f7c4a9, 5em -1em 0 0 #f7c4a9, 5em 0 0 0 #f7c4a9, 5em -2em 0 0 #f7c4a9, 5em -3em 0 0 #f7c4a9, 4em -3em 0 0 #f7c4a9, 3em -3em 0 0 #f7c4a9, 2em -3em 0 0 #f7c4a9, 1em -3em 0 0 #0f1434, 0 -3em 0 0 #f7c4a9, -1em -3em 0 0 #f7c4a9, 2em -4em 0 0 #0e1339, 3em -4em 0 0 #f7c4a9, 4em -4em 0 0 #f7c4a9, -1em -4em 0 0 #f7c4a9, 0 -4em 0 0 #f7c4a9, 1em -4em 0 0 #f7c4a9, -2em -3em 0 0 #f7c4a9, -3em -3em 0 0 #f7c4a9, -3em -4em 0 0 #0e1339, -2em -4em 0 0 #0e1339, -2em -5em 0 0 #0e1339, -1em -5em 0 0 #0e1339, 0 -5em 0 0 #0e1339, 1em -5em 0 0 #0e1339, 2em -5em 0 0 #0e1339, 3em -5em 0 0 #0e1339, 4em -5em 0 0 #0e1339, 5em -5em 0 0 #0e1339, 5em -4em 0 0 #0e1339, 6em -4em 0 0 #0e1339, 7em -4em 0 0 #0e1339, 7em -3em 0 0 #0e1339, 7em -2em 0 0 #0e1339, 7em -1em 0 0 #d1906a, 7em 0 0 0 #d1906a, 7em 1em 0 0 #d1906a, 5em 2em 0 0 #d1906a, 6em 2em 0 0 #d1906a, 4em 3em 0 0 #d1906a, 3em 3em 0 0 #e8b290, 2em 3em 0 0 #f6c4a9, 1em 3em 0 0 #f6c4a9, 2em 4em 0 0 #f6c4a9, 1em 4em 0 0 #fffa94, 0 4em 0 0 #fffa94, 3em 4em 0 0 #fffa94, 4em 4em 0 0 #fffa94, 5em 4em 0 0 #fffa94, 6em 4em 0 0 #107836, 6em 5em 0 0 #084267, 6em 6em 0 0 #084267, 6em 7em 0 0 #efb286, 5em 7em 0 0 #00609d, 5em 6em 0 0 #00609d, 5em 5em 0 0 #00609d, 4em 5em 0 0 #00609d, 4em 6em 0 0 #00609d, 4em 7em 0 0 #00609d, 3em 7em 0 0 #00609d, 2em 7em 0 0 #00609d, 1em 7em 0 0 #00609d, 0 7em 0 0 #00609d, 0 6em 0 0 #00609d, 1em 6em 0 0 #00609d, 1em 5em 0 0 #00609d, 0 5em 0 0 #00609d, -1em 5em 0 0 #00609d, 0 8em 0 0 #fdce04, 1em 8em 0 0 #c3212e, 2em 8em 0 0 #fdce04, 3em 8em 0 0 #fdce04, 4em 8em 0 0 #c3212e, 5em 8em 0 0 #fdce04, 5em 9em 0 0 #004b60, 5em 10em 0 0 #a31c23, 4em 10em 0 0 #c22629, 4em 9em 0 0 #005d96, 3em 9em 0 0 #992122, 2em 9em 0 0 #992122, 1em 9em 0 0 #005e9e, 0 9em 0 0 #005e9e, 0 10em 0 0 #ca2126, 1em 10em 0 0 #ca2126, 4em 0 0 0 #f7c4a9, 4em 1em 0 0 #f7c4a9, -3em -2em 0 0 #f7c4a9, -3em -1em 0 0 #f7c4a9, -3em 0 0 0 #f7c4a9, -3em 1em 0 0 #f7c4a9, -2em 2em 0 0 #f7c4a9, -1em 2em 0 0 #f7c4a9, 0 2em 0 0 #f7c4a9, 1em 2em 0 0 #f7c4a9, 2em 2em 0 0 #f7c4a9, 3em 2em 0 0 #f7c4a9, 4em 2em 0 0 #e8b290, 5em 1em 0 0 #e8b290, 6em 1em 0 0 #e8b290, 6em 0 0 0 #e8b290, 6em -1em 0 0 #e8b290, 6em -2em 0 0 #e8b290, 6em -3em 0 0 #e8b290, 6em -5em 0 0 #0e1434, 5em -6em 0 0 #0e1434, 4em -6em 0 0 #0e1434, 3em -6em 0 0 #0e1434, 2em -6em 0 0 #0e1434, 1em -6em 0 0 #0e1434, 0 -6em 0 0 #0e1434, -1em -6em 0 0 #0e1434, 2em 5em 0 0 #c42521, 2em 6em 0 0 #ffcb00, 3em 5em 0 0 #ffcb00, 3em 6em 0 0 #c42521, 7em 6em 0 0 #0e6b30, 7em 5em 0 0 #0e6b30, 7em 7em 0 0 #0e6b30, 6em 9em 0 0 #0d6d30, 6em 8em 0 0 #0d6d30, 7em 8em 0 0 #0e6b30, 8em 6em 0 0 #0b943d, 8em 7em 0 0 #0b943d, 8em 8em 0 0 #17a54b, 9em 8em 0 0 #0b943d, 8em 9em 0 0 #048332, 7em 9em 0 0 #0b943d, -2em 5em 0 0 #0a4361, -3em 5em 0 0 #F7C4A9;
+  height: 1em;
+  width: 1em;
+  /*display: none;*/
+  opacity: 1.0;
+  z-index: -1;
+  transition: all 3s ease-in-out;
+}
+
+.new:after {
+  /*-webkit-animation: 3s ease-in-out 0s normal none infinite superman_shadow;*/
+  /*animation: 3s ease-in-out 0s 1 superman_shadow;*/
+  background: none repeat scroll 0 0 #000000;
+  border-radius: 50%;
+  bottom: -201px;
+  content: "";
+  height: 20px;
+  left: -24px;
+  opacity: 0.2;
+  position: absolute;
+  width: 165px;
+  transition: all 1s ease-in-out;
+}
+
+.animation {
+  /*opacity: 0.8;*/
+  animation: flash 0.4s 6;
+}
+
+.flashShake {
+  /*opacity: 0.8;*/
+  animation: flashShake 0.4s 6;
+}
+
+#supermanOne {
+  -webkit-animation: rightToLeft 3s ease-in-out forwards;
+  -o-animation: rightToLeft 3s ease-in-out forwards;
+  animation: rightToLeft 3s ease-in-out forwards;
+  position: absolute;
+  top: 40%;
+  right: 0%;
+}
+
+@keyframes rightToLeft {
+  35% {transform: rotateZ(0deg);}
+  100% { right: 120%; transform: rotateZ(360deg);}
+}
+
+#supermanTwo {
+  -webkit-animation: bottomToTop 3s ease-in-out forwards;
+  -o-animation: bottomToTop 3s ease-in-out forwards;
+  animation: bottomToTop 3s ease-in-out forwards;
+  position: absolute;
+  bottom: 0%;
+  right: 50%;
+}
+
+@keyframes bottomToTop {
+  35% {transform: rotateZ(0deg);}
+  100% { bottom: 130%; transform: rotateZ(360deg);}
+}
+
+@keyframes flash {
+  50%{
+      opacity: 0.5;
+  }
+}
+
+@keyframes flashShake {
+  50%{
+      opacity: 0.5;
+      transform: rotate(-45deg);
+      transition: transform 250ms;
+  }
+}
+
+#tag {
+  font-family: 'Bungee Shade','Molle', cursive;
+  position: absolute;
+  top: 40%;
+  right: 80px;
+  font-size: 4em;
+  color: #fffa94;
+  opacity: 0.0;
+  transition: all 3s;
+}
+
+#from {
+  font-size: 30px;
+  font-family: 'Indie Flower', cursive;
+  position: absolute;
+  top: 160px;
+  right: 100px;
+}
+
+.path {
+  height: 1em;
+  width: 1em;
+  background: pink;
+  position: absolute;
+  left: 670px;
+  top: 480px;
+  z-index: -10;
+  border-radius: 50%;
+  opacity: 0.0;
+}
+
+#word {
+  position: absolute;
+  top: 15%;
+  left: 30%;
+  opacity: 0.0;
+  height: 150px;
+  width: 507px;
+}
+
+.jello {
+  animation: jello 1s ease-in-out 2;
+}
+
+.fadeIn {
+  animation: fadeIn 2s ease-in-out 1;
+}
+
+#howTo {
+  position: absolute;
+  left: 25%;
+  top: 40%;
+  opacity: 0.0;
+}
+/*------------------------*/
